@@ -138,17 +138,20 @@ p {
   background-color: #404bbf;
 }
 
-.benefits-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .benefits-title {
   visibility: hidden;
 }
 .benefits-list {
+  margin: 0 auto;
   display: flex;
-  width: calc(100% - 72px) / 4;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
   gap: 24px;
+}
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-item-title {
   font-weight: 500;
@@ -163,6 +166,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  margin-top: 8px;
 }
 .team-container {
   display: block;
