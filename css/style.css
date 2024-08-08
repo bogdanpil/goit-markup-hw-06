@@ -231,10 +231,12 @@ p {
   text-align: center;
   color: #434455;
 }
-.portfolio-container {
-  display: block;
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-container {
+  display: block;
 }
 .portfolio-list {
   display: flex;
@@ -254,7 +256,7 @@ p {
   color: #2e2f42;
 }
 .project-card {
-  padding: 16px 0 0 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
