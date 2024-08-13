@@ -286,6 +286,31 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 0 32px;
+  padding-top: 40px;
+  transform: translateY(100%);
+}
+.portfolio-list-item:hover .portfolio-overflow {
+  transform: translateY(0%);
+}
+
 .portfolio-list-item {
   display: block;
   flex-basis: calc((100% - 48px) / 3);
