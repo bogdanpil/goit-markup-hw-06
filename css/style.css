@@ -372,7 +372,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*footer*/
+/*#region footer*/
 
 .footer-logo {
   display: inline-block;
@@ -384,6 +384,8 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .page-footer-text {
   font-size: 16px;
@@ -392,3 +394,36 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+.social-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.logo-container {
+  margin-right: 120px;
+  margin-left: 156px;
+}
+/*#endregion footer*/
