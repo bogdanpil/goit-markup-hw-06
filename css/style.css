@@ -167,7 +167,7 @@ img {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-/*benefits*/
+/* #region benefits */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -194,6 +194,16 @@ img {
 .benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
+.benefits-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 .benefits-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -211,6 +221,8 @@ img {
   display: block;
   margin-top: 8px;
 }
+/* #endregion benefits */
+/* #region our team */
 .team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -296,6 +308,7 @@ img {
 .link-svg {
   fill: #f4f4fd;
 }
+/* #endregion our team */
 /* #region portfolio */
 .portfolio {
   padding-top: 120px;
