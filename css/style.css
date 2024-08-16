@@ -74,6 +74,7 @@ img {
 }
 .nav-link.current {
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link.current::after {
   content: '';
@@ -85,8 +86,6 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts {
   font-style: normal;
@@ -99,7 +98,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -120,7 +119,7 @@ img {
   align-items: center;
   gap: 40px;
 }
-/*hero*/
+/* #region hero */
 .hero {
   max-width: 1440px;
   height: 600px;
@@ -134,6 +133,7 @@ img {
     ),
     url(../images/people-office.jpg);
   background-size: cover;
+  background-position: center;
 }
 .hero-title {
   font-weight: 700;
@@ -162,11 +162,13 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+/* #endregion hero */
 /* #region benefits */
 .visually-hidden {
   position: absolute;
