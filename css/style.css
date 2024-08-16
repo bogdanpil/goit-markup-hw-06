@@ -26,13 +26,13 @@ p {
 img {
   display: block;
 }
-/*common*/
+
+/* #region header */
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/*header*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -119,6 +119,7 @@ img {
   align-items: center;
   gap: 40px;
 }
+/* #endregion header */
 /* #region hero */
 .hero {
   max-width: 1440px;
@@ -288,6 +289,7 @@ img {
   justify-content: center;
   flex-shrink: 0;
   gap: 24px;
+  margin-top: 8px;
 }
 .social-list-item {
   display: flex;
@@ -302,6 +304,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -365,15 +368,13 @@ img {
 .portfolio-list-item:hover .portfolio-overflow {
   transform: translateY(0%);
 }
-.portfolio-list-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 
 .portfolio-list-item {
   display: block;
   flex-basis: calc((100% - 48px) / 3);
   box-sizing: border-box;
+  transition: box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-name-title {
   padding: 16px 0 0 16px;
