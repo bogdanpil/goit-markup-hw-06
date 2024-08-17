@@ -454,9 +454,9 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 .logo-container {
   margin-right: 120px;
-  margin-left: 156px;
 }
 /* #endregion footer */
